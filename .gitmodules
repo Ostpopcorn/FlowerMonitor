@@ -1,0 +1,10 @@
+[submodule "lib/Connector_Esp"]
+	path = lib/Connector_Esp
+	url = git@github.com:Ostpopcorn/Connector_Esp.git
+	branch = main
+[submodule "lib/SymbolOST"]
+	path = lib/SymbolOST
+	url = git@github.com:Ostpopcorn/SymbolOST.git
+[submodule "lib/ConnectorEsp"]
+	path = lib/ConnectorEsp
+	url = git@github.com:Ostpopcorn/Connector_Esp.git
