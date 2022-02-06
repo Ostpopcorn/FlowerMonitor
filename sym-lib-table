@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "Connector_Esp")(type "Legacy")(uri "${KIPRJMOD}/lib/ConnectorEsp/Connector_Esp.lib")(options "")(descr ""))
-)
