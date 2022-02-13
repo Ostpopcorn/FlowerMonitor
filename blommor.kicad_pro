@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.016
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|112407692|95888462|e8f9c24b-2922-4d79-bb12-10e72531ce5d|6f3a6318-425b-4da2-8ff4-1d651b72b6b2",
+        "clearance|122132692|107388462|012023c1-75d5-42bb-a5d6-9afa9a06a07a|244378a4-0ae8-45dc-8d8b-2cdab6257252"
+      ],
       "meta": {
         "version": 2
       },
@@ -387,7 +390,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 10,
+    "annotate_start_num": 50,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
